@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(black,rgb(195, 189, 189));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #f8f8f8;
+            margin-top: 0; /* Add this line to remove any top margin */
+        }
+
+        .game-button1,
+        .game-button2 {
+            background-color: #fff;
+			color:#010101;
+            font-size: 18px;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition:0.6s ease;
+            text-align: center;
+            text-decoration:none;
+        }
+
+        .game-button1:hover,
+        .game-button2:hover {
+           
+		          background-color:black;
+                  color:#fff;
+        }
+
+        #game-image {
+            max-width: 15%;
+            height: auto;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+              
+    <h1>Welcome to Our Gameweb</h1>
+	   <!--<p><h3>Our Web contains total Two Games which are very interesting...
+	          Let's Go!!! Enjoy our Wonderful Games:)</h3></p>-->
+     <img id="game-image" src="Projectlogo.jpg"></img>
+    
+	<h2 align="center">Road Rush</h2>
+    <a href="game.html" class="game-button1">Click to start</a>
+	
+	<h2 align="center">The Rushing Toad</h2>
+    <a href="index.html" class="game-button2">Click to start</a>
+</body>
+</html> 
